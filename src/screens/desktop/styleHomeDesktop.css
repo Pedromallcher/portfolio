@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.content-home-desktop{
+    background-color: #0E050F;
+    width: 100vw;
+    height: 47.5vw;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.box-principal{
+    width: 87vw;
+    height: 40vw;
+    background-color: red;
+    display: flex;
+    
+}
+
+.box-perfil{
+    width: 16vw;
+    height: 40vw;
+    background-color: purple;
+}
+.box-content-4{
+    display: flex;
+}
+
+.bloco1{
+    width: 80vh;
+    height: 23vw;
+    margin-right: 1.6vh;
+    
+}
+
+.bloco1-1{
+    display: flex;
+    
+}
+.bloco1-2{
+    width: 17vw;
+    height: 10vw;
+    background-color: #c408c0;
+    margin: 2vh;
+    border-radius: 10px;
+}
+
+.bloco1-3{
+    width: 17vw;
+    height: 10vw;
+    background-color: #08c41e;
+    margin: 2vh;
+    border-radius: 10px;
+}
+
+.bloco2-1{
+    display: flex;
+}
+
+.bloco2-2{
+    width: 17vw;
+    height: 10vw;
+    background-color: rgb(0, 13, 128);
+    margin: 2vh;
+    border-radius: 10px;
+}
+.bloco2-3{
+    width: 17vw;
+    height: 10vw;
+    background-color: rgb(128, 0, 0);
+    margin: 2vh;
+    border-radius: 10px;
+
+}
+
+.bloco2{
+    width: 70vh;
+    height: 23vw;
+    background-color: aqua;
+}
+
+.bloco3-1{
+    width: 60vw;
+}
+
+.bloco3-2{
+    width: 38vw;
+    height: 34.2vh;
+    background-color: rgb(0, 128, 128);
+    border-radius: 16px;
+    
+}
+.bloco4-2{
+    background-color: #c408c0;
+    height: 23vw;
+    width: 32vw;
+    margin-bottom: 2vh;
+ 
+}
+.bloco4-3{
+    background-color: #31c408;
+    height: 34vh;
+    width: 32vw;
+   
+
+}

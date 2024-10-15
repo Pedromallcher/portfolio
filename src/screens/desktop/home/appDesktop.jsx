@@ -1,12 +1,34 @@
 import './styleHomeDesktop.css'
 
+//imports
+import imgPerfil from '../../../assets/svg-removebg-preview.png'
+
+//imports icons
+import { PiCoffeeFill } from "react-icons/pi";
+import { PiProjectorScreenChartFill } from "react-icons/pi";
 
 export const HomeDesktop = () => {
     return (
         <div className="content-home-desktop">
             
         <div className='box-principal'>
-            <div className='box-perfil'><h3>Bloco1</h3></div>
+            <div className='box-perfil'>
+                <div className='img-perfil'> <img src={imgPerfil} alt="" /> <h3>@pedromallcher</h3></div>
+                <div className='option-menubox'>
+                    <a href=""><PiCoffeeFill className='icon-option'/>Home</a>
+                    <a href="">< PiProjectorScreenChartFill className='icon-option'/>Projetos</a>
+                    <a href="">Case Study</a>
+                    <a href="">About me</a>
+
+                </div>
+
+
+            </div>
+
+
+
+
+
             <div className='box-content-4'>
                 <div className='bloco1'>
                     <div className='bloco1-1'>
@@ -31,8 +53,8 @@ export const HomeDesktop = () => {
                 </div>
 
                 <div className='bloco4-1'>
-                    <div className='bloco4-2'><h1>bloco7</h1></div>
-                    <div className='bloco4-3'><h1>bloco8</h1></div>
+                    <div className='bloco4-2'><h1></h1></div>
+                    <div className='bloco4-3'><h1></h1></div>
 
                 </div>
                 

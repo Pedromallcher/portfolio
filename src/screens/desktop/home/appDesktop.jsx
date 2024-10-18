@@ -8,6 +8,8 @@ import { PiCoffeeFill } from "react-icons/pi";
 import { PiProjectorScreenChartFill } from "react-icons/pi";
 import { FaBookSkull } from "react-icons/fa6";
 import { FaAddressCard } from "react-icons/fa";
+import { MdOutlinePlace } from "react-icons/md";
+import { TbSchool } from "react-icons/tb";
 import ReactWeb from '../../../assets/web.png'
 import ReactNative from '../../../assets/native.png'
 import Css from '../../../assets/css-3.png'
@@ -96,8 +98,8 @@ export const HomeDesktop = () => {
                         <div className='me-top'>
                             <h3>Olá , me chamo Pedro</h3>
                             <div className='inf-local-me'>
-                                <p>Stm</p>
-                                <p>Estudou</p>
+                                <p>< MdOutlinePlace/>Stm</p>
+                                <p><TbSchool/>Estudou</p>
                             </div>
                         </div>
                     </div>

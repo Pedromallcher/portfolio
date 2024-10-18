@@ -8,6 +8,11 @@ import { PiCoffeeFill } from "react-icons/pi";
 import { PiProjectorScreenChartFill } from "react-icons/pi";
 import { FaBookSkull } from "react-icons/fa6";
 import { FaAddressCard } from "react-icons/fa";
+import ReactWeb from '../../../assets/web.png'
+import ReactNative from '../../../assets/native.png'
+import Css from '../../../assets/css-3.png'
+import Html from '../../../assets/html.png'
+import Js from '../../../assets/java-script.png'
 
 export const HomeDesktop = () => {
     return (
@@ -36,11 +41,38 @@ export const HomeDesktop = () => {
             <div className='box-content-4'>
                 <div className='bloco1'>
                     <div className='bloco1-1'>
-                        <div className='bloco1-2'>bloco2</div>
-                        <div className='bloco1-3'>bloco3</div>
+                        <div className='bloco1-2'>
+                            <div className='txt-bloco1-2'>
+                            <h3>80+</h3>
+                            <p>Projetos Concluidos</p>
+                            </div>
+                            
+                        </div>
+                        <div className='bloco1-3'>
+                        <div className='txt-bloco1-2'>
+                            <h3>3+<span> anos</span></h3>
+                            <p>Experiencia em Desenvolvimento</p>
+                            </div>
+                        </div>
                     </div>
                     <div className='bloco2-1'>
-                        <div className='bloco2-2'>bloco4</div>
+                        <div className='bloco2-2'>
+                        <div className='txt-bloco2-2'>
+                            <h3>Skills</h3>
+                            
+                            <div className='icons-skills'>
+                                <img src={ReactWeb}  />
+                                <img src={ReactNative}  />
+                                <img src={Css}  />
+                                <img src={Html}  />
+                                <img src={Js}  />
+
+                            </div>
+                           
+                            </div>
+
+
+                        </div>
                         <div className='bloco2-3'>bloco5</div>
 
                        

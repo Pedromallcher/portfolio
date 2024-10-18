@@ -73,13 +73,15 @@ export const HomeDesktop = () => {
 
 
                         </div>
-                        <div className='bloco2-3'>bloco5</div>
+                        <div className='bloco2-3'></div>
+                       
 
                        
                     </div>
 
                     <div className='bloco3-1'>
                         <div className='bloco3-2'>bloco6</div>
+                        <div className='bloco3-3'>bloco7</div>
                        
                     </div>
 
@@ -89,8 +91,32 @@ export const HomeDesktop = () => {
                 </div>
 
                 <div className='bloco4-1'>
-                    <div className='bloco4-2'><h1></h1></div>
-                    <div className='bloco4-3'><h1></h1></div>
+                    <div className='bloco4-2'>
+                    <div className='me-box'>
+                        <div className='me-top'>
+                            <h3>Olá , me chamo Pedro</h3>
+                            <div className='inf-local-me'>
+                                <p>Stm</p>
+                                <p>Estudou</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='txt-me-box'>
+                                <h3>Sou graduado em Redes de Computadores e atualmente 
+                                    curso Engenharia de Software. Tenho experiência 
+                                    diversificada no setor de tecnologia, atuando 
+                                    em diferentes áreas, desde o desenvolvimento de 
+                                    software até o gerenciamento de infraestruturas de TI.
+                                     Ao longo da minha carreira, já trabalhei em diversas 
+                                     frentes tecnológicas, adquirindo uma visão ampla e integrada dos 
+                                    desafios e soluções no mundo da tecnologia. 
+                                </h3>
+
+                            </div>
+
+
+                    </div>
+                    
 
                 </div>
                 

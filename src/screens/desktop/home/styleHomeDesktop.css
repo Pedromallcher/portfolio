@@ -88,7 +88,11 @@
 .bloco2-3{
     width: 17vw;
     height: 10vw;
-    background-color: rgb(128, 0, 0);
+    background-color: #1417224d;
+    background-image: url(../../../assets/image-placehold.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
     margin: 1vh;
     border-radius: 10px;
 
@@ -101,17 +105,31 @@
 }
 
 .bloco3-1{
-    width: 60vw;
+    width: 70vw;
+    display: flex;
+  
 }
 
 .bloco3-2{
-    width: 35vw;
+    width: 17vw;
     height: 34.2vh;
     margin-left: 1vh;
     margin-top: 2vh;
     background-color: rgb(0, 128, 128);
     border-radius: 16px;
+    margin-right: 1vh;
     
+}
+
+.bloco3-3{
+
+    width: 50vw;
+    height: 34.2vh;
+    margin-left: 1vh;
+    margin-top: 2vh;
+    background-color: rgb(4, 49, 108);
+    border-radius: 16px;
+
 }
 
 .bloco4-1{
@@ -119,21 +137,15 @@
  
 }
 .bloco4-2{
-    background-color: #c408c0;
+    display: flex;
+    flex-direction: column;
+    background-color: #111111;
     height: 21.5vw;
     width: 32vw;
     border-radius: 20px;
  
 }
-.bloco4-3{
-    background-color: #31c408;
-    height: 34vh;
-    width: 32vw;
-    border-radius: 20px;
-    margin-top: 3.1vh;
-   
 
-}
 
 .box-perfil{
     display: flex;
@@ -219,14 +231,59 @@
 .txt-bloco2-2{
     color: white;
     display: flex;
+    margin-top: 1.3vh;
     flex-direction: column;
     text-align: center;
     font-family: "Germania One", system-ui;
-    font-size: 49px;
+    font-size: 43px;
 
 }
 
 .icons-skills img{
-    height: 50px;
+    height: 39px;
+    margin-top: 2vh;
     
 }
+
+.me-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inf-local-me{
+    display: flex;
+    flex-direction: column;
+}
+
+.me-top{
+    width: 60vh;
+    align-items: center;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.me-top h3{
+  font-size: 25px;
+    font-family: "Germania One", system-ui;
+    color: white;
+ 
+}
+
+.txt-me-box {
+    width: 55vh;
+    margin-top: 2vh;
+    margin-left:4vh;
+}
+
+
+.txt-me-box h3{
+    color: gray;
+    font-family: "Germania One", system-ui;
+    text-align: justify;
+}
+
+
+

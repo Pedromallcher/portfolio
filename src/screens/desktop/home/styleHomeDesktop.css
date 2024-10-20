@@ -111,23 +111,48 @@
 }
 
 .bloco3-2{
+    display: flex;
+    justify-content: center;
     width: 17vw;
     height: 34.2vh;
     margin-left: 1vh;
     margin-top: 2vh;
-    background-color: rgb(0, 128, 128);
+    background-color: #111111;
     border-radius: 16px;
     margin-right: 1vh;
+    text-align: center;
     
+}
+.bloco3-2-title{
+    margin-top: 3vh;
+    color: white;
+    font-family: "Germania One", system-ui
+
+}
+
+.bloco3-2-p{
+    color: #2997FF;
+    font-family: "Germania One", system-ui
+
+}
+.box-img-bloco3-2{
+    display: flex;
+    justify-content: center;
+    height: 24vh;
+    width: 34vh;
+}
+.box-img-bloco3-2 img{
+    margin-top: 2vh;
+   height: 23vh;
 }
 
 .bloco3-3{
-
+    color: white;
     width: 50vw;
     height: 34.2vh;
     margin-left: 1vh;
     margin-top: 2vh;
-    background-color: rgb(4, 49, 108);
+    background-color: #111111;
     border-radius: 16px;
 
 }
@@ -254,7 +279,19 @@
 
 .inf-local-me{
     display: flex;
+    justify-content: center;
+    align-items: initial;
+    text-align: justify;
     flex-direction: column;
+}
+.inf-local-me p {
+    font-family: "Germania One", system-ui;
+    font-size: 14px;
+    
+
+}
+.icon-inf-local-me{
+    margin-right: 1vh;
 }
 
 .me-top{
@@ -266,20 +303,21 @@
 }
 
 .me-top h3{
-  font-size: 25px;
+  font-size: 28px;
     font-family: "Germania One", system-ui;
     color: white;
  
 }
 
 .txt-me-box {
-    width: 55vh;
-    margin-top: 2vh;
+    width: 59vh;
+    margin-top: 5vh;
     margin-left:4vh;
 }
 
 
 .txt-me-box h3{
+    font-size: 20px;
     color: gray;
     font-family: "Germania One", system-ui;
     text-align: justify;

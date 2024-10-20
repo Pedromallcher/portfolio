@@ -15,6 +15,7 @@ import ReactNative from '../../../assets/native.png'
 import Css from '../../../assets/css-3.png'
 import Html from '../../../assets/html.png'
 import Js from '../../../assets/java-script.png'
+import robo from '../../../assets/Chatbot.svg'
 
 export const HomeDesktop = () => {
     return (
@@ -82,7 +83,24 @@ export const HomeDesktop = () => {
                     </div>
 
                     <div className='bloco3-1'>
-                        <div className='bloco3-2'>bloco6</div>
+                        <div className='bloco3-2'>
+                            <div className='bloco3-2-content'>
+                                <div className='bloco3-2-title'>
+                                    <h3>Projetos Futuros</h3>
+                                </div>
+
+                                <div className='bloco3-2-p'>
+                                    <p>Ver mais</p>
+                                </div>
+
+                                <div className='box-img-bloco3-2'>
+                                    <img src={robo} alt="" />
+
+                                </div>
+
+                            </div>
+
+                        </div>
                         <div className='bloco3-3'>bloco7</div>
                        
                     </div>
@@ -98,8 +116,8 @@ export const HomeDesktop = () => {
                         <div className='me-top'>
                             <h3>Olá , me chamo Pedro</h3>
                             <div className='inf-local-me'>
-                                <p>< MdOutlinePlace/>Stm</p>
-                                <p><TbSchool/>Estudou</p>
+                                <p>< MdOutlinePlace className='icon-inf-local-me'/>Santarém</p>
+                                <p><TbSchool className='icon-inf-local-me'/>Unama</p>
                             </div>
                         </div>
                     </div>

@@ -1,0 +1,101 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.content-project-component{
+    display: flex;
+    padding-top: 8vh;
+    padding-left: 4vh;
+    background-color: #0E050F;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+}
+
+
+.box-perfil{
+    position: fixed;
+    width: 16vw;
+    height: 39vw;
+    background-color: #111111;
+    border-radius: 20px;
+    margin-right: 2vh;
+    
+}
+
+.img-perfil img{
+    height: 36vh;
+   
+
+}
+.option-menubox{
+    
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 5vh;
+  
+}
+.file1-box-content-principal{
+   
+    display: flex;
+}
+.file2-box-content-principal{
+    display: flex;
+    
+}
+.box-content-principal{
+    border-radius: 10px;
+    margin-left: 18vw;
+    width: 76vw;
+    height: auto;
+}
+.bloco1-boc-content-principal{
+    margin: 2vh;
+    border-radius: 18px;
+    background-color: purple;
+    width: 25vw;
+    height: 40vh;
+
+}
+
+.bloco2-boc-content-principal{
+    margin: 2vh;
+    border-radius: 18px;
+    background-color: rgb(0, 128, 38);
+    width: 25vw;
+    height: 40vh;
+
+}
+
+.bloco3-boc-content-principal{
+    margin: 2vh;
+    border-radius: 18px;
+    background-color: rgb(0, 9, 128);
+    width: 25vw;
+    height: 40vh;
+
+}
+
+.bloco4-boc-content-principal{
+    margin: 2vh;
+    border-radius: 18px;
+    background-color: rgb(0, 9, 128);
+    width: 37vw;
+    height: 40vh;
+
+}
+
+.bloco5-boc-content-principal{
+    margin: 2vh;
+    border-radius: 18px;
+    background-color: rgb(0, 102, 128);
+    width: 37vw;
+    height: 40vh;
+
+}
+
+

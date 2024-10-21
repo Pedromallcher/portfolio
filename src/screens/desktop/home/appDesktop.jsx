@@ -29,12 +29,7 @@ export const HomeDesktop = () => {
                     <a href="">< PiProjectorScreenChartFill className='icon-option'/>Projetos</a>
                     <a href="">< FaBookSkull className='icon-option'/>Case Study</a>
                     <a href=""><  FaAddressCard className='icon-option'/>About me</a>
-                    
-                    
-
                 </div>
-
-
             </div>
 
 
@@ -101,7 +96,7 @@ export const HomeDesktop = () => {
                             </div>
 
                         </div>
-                        <div className='bloco3-3'>bloco7</div>
+                        <div className='bloco3-3'>bloco77</div>
                        
                     </div>
 

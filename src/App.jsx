@@ -1,9 +1,10 @@
-import { useState } from 'react'
-import { Home } from './home/app'
+
 import './App.css'
 
 //components
-import { HomeDesktop } from './screens/desktop/appDesktop'
+import {HomeDesktop} from './screens/desktop/home/appDesktop'
+
+
 
 
 function App() {

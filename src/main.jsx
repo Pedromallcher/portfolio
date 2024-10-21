@@ -1,10 +1,20 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import {HomeDesktop} from './screens/desktop/home/appDesktop'
 import './index.css'
+import './App.css'
+
+
+
+//import componets
+import App from './App'
+
+
+
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <HomeDesktop/>
+
+    <App />
   </StrictMode>,
 )

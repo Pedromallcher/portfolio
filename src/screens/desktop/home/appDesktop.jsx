@@ -17,7 +17,7 @@ import ReactNative from '../../../assets/native.png'
 import Css from '../../../assets/css-3.png'
 import Html from '../../../assets/html.png'
 import Js from '../../../assets/java-script.png'
-import robo from '../../../assets/Chatbot.svg'
+
 
 export const HomeDesktop = () => {
     return (
@@ -92,7 +92,7 @@ export const HomeDesktop = () => {
                                 </div>
 
                                 <div className='box-img-bloco3-2'>
-                                    <img src={robo} alt="" />
+                                   
 
                                 </div>
 

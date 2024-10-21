@@ -9,19 +9,10 @@ import { FaAddressCard } from "react-icons/fa";
 
 
 
-export const ProjectDesktop = () => {
+export const ProjectDesktop = (props) => {
     return (
         <div className="content-project-component">
-
-<div className='box-principal-component'>
-
-       
-
-
-
-
-
-
+        <div className='box-principal-component'>
 
             <div className='box-perfil-component'>
             <div className='img-perfil-component'> <img src={imgPerfil} alt="" /> <h3>@pedromallcher</h3></div>

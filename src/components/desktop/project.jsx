@@ -1,52 +1,89 @@
 import './componentsdesktop.css'
+import { Link } from 'react-router-dom'
 import imgPerfil from '../../assets/svg-removebg-preview.png'
+
 import { PiCoffeeFill } from "react-icons/pi";
 import { PiProjectorScreenChartFill } from "react-icons/pi";
 import { FaBookSkull } from "react-icons/fa6";
 import { FaAddressCard } from "react-icons/fa";
 
 
+
 export const ProjectDesktop = () => {
     return (
         <div className="content-project-component">
-              <div className='box-perfil'>
-                <div className='img-perfil'> <img src={imgPerfil} alt="" /> <h3>@pedromallcher</h3></div>
-                <div className='option-menubox'>
-                    <a href=""><PiCoffeeFill className='icon-option'/>Home</a>
-                    <a href="">< PiProjectorScreenChartFill className='icon-option'/>Projetos</a>
-                    <a href="">< FaBookSkull className='icon-option'/>Case Study</a>
-                    <a href=""><  FaAddressCard className='icon-option'/>About me</a>
-                    
-                    
 
+<div className='box-principal-component'>
+
+       
+
+
+
+
+
+
+
+            <div className='box-perfil-component'>
+            <div className='img-perfil-component'> <img src={imgPerfil} alt="" /> <h3>@pedromallcher</h3></div>
+                <div className='option-menubox-component'>
+                <Link to="/"><PiCoffeeFill className='icon-option'/>Home</Link>
+                <Link to="/projetos"><PiProjectorScreenChartFill className='icon-option'/><p className='option-projetos'>Projetos </p></Link>
+                <Link to=""><FaBookSkull className='icon-option'/>Case Study</Link>
+                <Link to="">< FaAddressCard className='icon-option'/>Sobre</Link>
                 </div>
-
-               
-
-
-            </div>
-            <div className='box-content-principal'>
-
-            <div className='file1-box-content-principal'>
-                <div className='bloco1-boc-content-principal'></div>
-                <div className='bloco2-boc-content-principal'></div>
-                <div className='bloco3-boc-content-principal'></div>
-               
             </div>
 
-            <div className='file2-box-content-principal'>
-                <div className='bloco4-boc-content-principal'></div>
-                <div className='bloco5-boc-content-principal'></div>
-               
-               
+            <div className='blocos-component'>
+
+                <div className='inf-top-blocos'>
+                    <h1>Projetos</h1>
+                    <h1>2023--2025</h1>
+                    </div>
+
+
+
+            <div className='fila1-blocos'>
+                <div className='fila1-bloco1'>
+                    <div className='title-project'><h3>Ola</h3></div>
+                </div>
+                <div className='fila1-bloco2'>bloco1</div>
+                <div className='fila1-bloco3'>bloco1</div>
+            </div>
+
+            <div className='fila2-blocos'>
+            <div className='fila2-bloco1'>bloco1</div>
+            <div className='fila2-bloco2'>bloco1</div>
             </div>
 
             
 
 
 
+
+
+
+
+
+
+
+
             </div>
 
+
+           
+
+
+
+
+
+            
+     
+        
+            
+             
+
+        </div>
+        
             
         </div>
 

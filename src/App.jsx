@@ -1,8 +1,8 @@
 
 import './App.css'
-
-//components
-import {HomeDesktop} from './screens/desktop/home/appDesktop'
+import { HomeDesktop } from './screens/desktop/home/appDesktop'
+//import routes
+import {AppRoutes} from './routes/routes'
 
 
 
@@ -10,8 +10,10 @@ import {HomeDesktop} from './screens/desktop/home/appDesktop'
 function App() {
 
   return (
+
     <>
-      <HomeDesktop/>
+    
+     <AppRoutes/>
         
     </>
   )

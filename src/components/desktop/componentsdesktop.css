@@ -1,101 +1,167 @@
-
-*{
-    margin: 0;
-    box-sizing: border-box;
-    padding: 0;
-}
-
 .content-project-component{
+background-color: #0E050F;
+width: 100%;
+justify-content: center;
+align-content: center;
+align-items: center;
+display: flex;
+color: white;
+
+}
+
+
+.inf-top-blocos{
+    margin-left: 2vh;
+    margin-bottom: 2vh;
+    width: 70vw;
+    font-family: "Germania One", system-ui;
+    font-weight: 40px;
     display: flex;
-    padding-top: 8vh;
-    padding-left: 4vh;
-    background-color: #0E050F;
-    width: 100vw;
-    height: 100vh;
-    color: white;
+    justify-content:space-between;
+
 }
 
 
-.box-perfil{
+
+
+.box-principal-component{
+width: 84vw;
+height: 100vh;
+padding-top: 8vh;
+display: flex;
+}
+.box-perfil-component{
     position: fixed;
-    width: 16vw;
-    height: 39vw;
-    background-color: #111111;
-    border-radius: 20px;
-    margin-right: 2vh;
-    
+    margin: 1vh;
+width: 16vw;
+height: 39vw;
+background-color: #111111;
+border-radius: 20px;
+
 }
 
-.img-perfil img{
-    height: 36vh;
+.img-perfil-component{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+.img-perfil-component h3{
+    display: flex;
+    font-size: 22px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -4.5vh;
+    font-family: "Satisfy", cursive;
+} 
+
+
+.img-perfil-component img{
    
+    margin-left: 3.4vh;
+   height: 36vh;
+}
+
+
+.blocos-component{
+    margin-left: 36vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.fila1-blocos{
+    display: flex;
+   
+}
+
+.fila1-bloco1{
+    display: flex;
+    background-color: #111111;
+    font-family: "Germania One", system-ui;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 1vh;
+    height: 40vh;
+    width: 23vw;
+    
+}
+
+.fila1-bloco2{
+    margin: 1vh;
+    border-radius: 10px;
+    height: 40vh;
+    width: 23vw;
+    background-color: rgb(0, 255, 128);
+}
+
+
+.fila1-bloco3{
+    margin: 1vh;
+    border-radius: 10px;
+    height: 40vh;
+    width: 23vw;
+    background-color: rgb(0, 17, 255);
+}
+
+
+.fila2-blocos{
+    display: flex;
 
 }
-.option-menubox{
-    
+
+.fila2-bloco1{
+    margin: 1vh;
+    border-radius: 10px;
+    height: 31vh;
+    width: 35vw;
+    background-color: rgb(0, 17, 255);
+}
+
+
+.fila2-bloco2{
+    margin: 1vh;
+    border-radius: 10px;
+    height: 31vh;
+    width: 35vw;
+    background-color: rgb(0, 255, 30);
+}
+
+.option-projetos{
+   padding-right: 1vh;
+   border-right: 4px solid gray;
+  
+}
+.title-project{
+    padding-top: 4vh;
+}
+
+
+.option-menubox-component{
     display: flex;
     text-align: center;
     flex-direction: column;
     padding-top: 5vh;
-  
 }
-.file1-box-content-principal{
-   
-    display: flex;
-}
-.file2-box-content-principal{
-    display: flex;
+
+.option-menubox-component a{
+    padding-left: 10vh;
+    display: flex; 
+    align-items: center; 
+    text-align: center;
+    text-decoration: none;
+    padding-top: 5.5vh;
+    font-family: "Germania One", system-ui;
+    font-size: 18px;
+    color: gray;
     
 }
-.box-content-principal{
-    border-radius: 10px;
-    margin-left: 18vw;
-    width: 76vw;
-    height: auto;
+
+.icon-option-component{
+    height: 90%;
+    margin-right: 1.5vh;
+   
+   
 }
-.bloco1-boc-content-principal{
-    margin: 2vh;
-    border-radius: 18px;
-    background-color: purple;
-    width: 25vw;
-    height: 40vh;
-
-}
-
-.bloco2-boc-content-principal{
-    margin: 2vh;
-    border-radius: 18px;
-    background-color: rgb(0, 128, 38);
-    width: 25vw;
-    height: 40vh;
-
-}
-
-.bloco3-boc-content-principal{
-    margin: 2vh;
-    border-radius: 18px;
-    background-color: rgb(0, 9, 128);
-    width: 25vw;
-    height: 40vh;
-
-}
-
-.bloco4-boc-content-principal{
-    margin: 2vh;
-    border-radius: 18px;
-    background-color: rgb(0, 9, 128);
-    width: 37vw;
-    height: 40vh;
-
-}
-
-.bloco5-boc-content-principal{
-    margin: 2vh;
-    border-radius: 18px;
-    background-color: rgb(0, 102, 128);
-    width: 37vw;
-    height: 40vh;
-
-}
-
-

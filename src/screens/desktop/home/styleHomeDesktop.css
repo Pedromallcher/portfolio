@@ -10,7 +10,6 @@
     background-color: #0E050F;
     width: 100%;
     height: 100%;
-    
     justify-content: center;
     align-content: center;
     align-items: center;
@@ -18,11 +17,10 @@
 }
 
 .box-principal{
+   
     width: 84vw;
     height: 100vh;
    padding-top: 8vh;
-   padding-left: 1vh;
-    /* background-color: red; */
     display: flex;
     
 }
@@ -30,9 +28,9 @@
 .box-perfil{
     width: 16vw;
     height: 39vw;
+    margin: 1vh;
     background-color: #111111;
     border-radius: 20px;
-    margin-right: 2vh;
 }
 .box-content-4{
     display: flex;
@@ -41,7 +39,6 @@
 .bloco1{
     width: 80vh;
     height: 23vw;
-   
     
 }
 
@@ -78,7 +75,6 @@
 .bloco2-2{
     display: flex;
     justify-content: center;
-    
     width: 17vw;
     height: 10vw;
     background-color: #111111;
@@ -158,13 +154,15 @@
 }
 
 .bloco4-1{
-    margin-left: -3vh;
+    margin-left: -4.2vh;
+  
  
 }
 .bloco4-2{
+    background-color: #111111;
     display: flex;
     flex-direction: column;
-    background-color: #111111;
+   
     height: 21.5vw;
     width: 32vw;
     border-radius: 20px;
@@ -210,7 +208,7 @@
     align-items: center; 
     text-align: center;
     text-decoration: none;
-    padding-top: 5vh;
+    padding-top: 5.5vh;
     font-family: "Germania One", system-ui;
     font-size: 18px;
     color: gray;
@@ -312,7 +310,7 @@
 .txt-me-box {
     width: 59vh;
     margin-top: 5vh;
-    margin-left:4vh;
+    margin:4vh;
 }
 
 

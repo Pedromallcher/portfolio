@@ -1,4 +1,6 @@
 import './styleHomeDesktop.css'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 //imports
 import imgPerfil from '../../../assets/svg-removebg-preview.png'
@@ -25,10 +27,11 @@ export const HomeDesktop = () => {
             <div className='box-perfil'>
                 <div className='img-perfil'> <img src={imgPerfil} alt="" /> <h3>@pedromallcher</h3></div>
                 <div className='option-menubox'>
-                    <a href=""><PiCoffeeFill className='icon-option'/>Home</a>
-                    <a href="">< PiProjectorScreenChartFill className='icon-option'/>Projetos</a>
-                    <a href="">< FaBookSkull className='icon-option'/>Case Study</a>
-                    <a href=""><  FaAddressCard className='icon-option'/>About me</a>
+                <Link to="/"><PiCoffeeFill className='icon-option'/>Home</Link>
+                <Link to="/projetos"><PiProjectorScreenChartFill className='icon-option'/>Projetos</Link>
+                <Link to="/projetos"><FaBookSkull className='icon-option'/>Case Study</Link>
+                <Link to="/projetos">< FaAddressCard className='icon-option'/>Sobre</Link>
+                   
                 </div>
             </div>
 
@@ -96,7 +99,7 @@ export const HomeDesktop = () => {
                             </div>
 
                         </div>
-                        <div className='bloco3-3'>bloco77</div>
+                        <div className='bloco3-3'>Teste de rotas</div>
                        
                     </div>
 

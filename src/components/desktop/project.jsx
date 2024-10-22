@@ -2,6 +2,8 @@ import './componentsdesktop.css'
 import { Link } from 'react-router-dom'
 import imgPerfil from '../../assets/svg-removebg-preview.png'
 
+import placeholder from '../../assets/placeholder.png'
+import { FaExternalLinkAlt } from "react-icons/fa";
 import { PiCoffeeFill } from "react-icons/pi";
 import { PiProjectorScreenChartFill } from "react-icons/pi";
 import { FaBookSkull } from "react-icons/fa6";
@@ -34,11 +36,63 @@ export const ProjectDesktop = (props) => {
 
 
             <div className='fila1-blocos'>
+
+
                 <div className='fila1-bloco1'>
-                    <div className='title-project'><h3>Ola</h3></div>
+                    <div className='img-bloco1-projetos'>
+                        <img src={ placeholder} alt="" />
+                    </div>
+                    <div className='legend-blocos-blocos'>
+                        <h3>proje</h3>
+                        <h3>proje</h3>
+                        <h3>proje</h3>
+                    </div>
+                    <div className='title-blocos-rodape'>
+                        <h2>Title</h2>
+                        <FaExternalLinkAlt/>
+                    </div>
                 </div>
-                <div className='fila1-bloco2'>bloco1</div>
-                <div className='fila1-bloco3'>bloco1</div>
+
+
+
+
+
+
+                <div className='fila1-bloco2'>
+                <div className='img-bloco1-projetos'>
+                        <img src={ placeholder} alt="" />
+                    </div>
+                    <div className='legend-blocos-blocos'>
+                        <h3>proje</h3>
+                        <h3>proje</h3>
+                        <h3>proje</h3>
+                    </div>
+                    <div className='title-blocos-rodape'>
+                        <h2>Title</h2>
+                        <FaExternalLinkAlt/>
+                    </div>
+                </div>
+
+
+                <div className='fila1-bloco3'>
+                <div className='img-bloco1-projetos'>
+                        <img src={ placeholder} alt="" />
+                    </div>
+                    <div className='legend-blocos-blocos'>
+                        <h3>proje</h3>
+                        <h3>proje</h3>
+                        <h3>proje</h3>
+                    </div>
+                    <div className='title-blocos-rodape'>
+                        <h2>Title</h2>
+                        <FaExternalLinkAlt/>
+                    </div>
+
+
+
+
+
+                </div>
             </div>
 
             <div className='fila2-blocos'>

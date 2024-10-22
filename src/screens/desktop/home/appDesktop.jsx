@@ -29,7 +29,7 @@ export const HomeDesktop = () => {
                 <div className='option-menubox'>
                 <Link to="/"><PiCoffeeFill className='icon-option'/>Home</Link>
                 <Link to="/projetos"><PiProjectorScreenChartFill className='icon-option'/>Projetos</Link>
-                <Link to="/projetos"><FaBookSkull className='icon-option'/>Case Study</Link>
+                <Link to="/casestudy"><FaBookSkull className='icon-option'/>Case Study</Link>
                 <Link to="/projetos">< FaAddressCard className='icon-option'/>Sobre</Link>
                    
                 </div>

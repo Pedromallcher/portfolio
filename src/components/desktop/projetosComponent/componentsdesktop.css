@@ -31,8 +31,8 @@ padding-top: 8vh;
 display: flex;
 }
 .box-perfil-component{
-    position: fixed;
-    margin: 1vh;
+position: fixed;
+margin: 1vh;
 width: 16vw;
 height: 39vw;
 background-color: #111111;

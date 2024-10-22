@@ -1,0 +1,1 @@
+mudar em projetos e Case Study , tirar link img do css e colocar para o jsx como link (img src {})

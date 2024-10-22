@@ -119,7 +119,7 @@ border-radius: 20px;
 .fila2-bloco1{
     margin: 1vh;
     border-radius: 20px;
-    height: 34vh;
+    height: 35vh;
     width: 27vw;
     border: 1px solid rgba(128, 128, 128, 0.582);
     background-color: #111111;
@@ -130,7 +130,7 @@ border-radius: 20px;
 .fila2-bloco2{
     margin: 1vh;
     border-radius: 20px;
-    height: 34vh;
+    height: 35vh;
     width: 27vw;
     border: 1px solid rgba(128, 128, 128, 0.582);
     background-color: #111111;
@@ -213,6 +213,7 @@ border-radius: 20px;
 
 .content-img-box-fila2{
     background-color: red;
+    margin-bottom: 1vh;
     border-radius: 20px;
     background-image: url('../../../assets/thumbnail.png');
     height: 20vh;

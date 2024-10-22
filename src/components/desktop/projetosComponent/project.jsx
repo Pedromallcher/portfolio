@@ -1,8 +1,8 @@
 import './componentsdesktop.css'
 import { Link } from 'react-router-dom'
-import imgPerfil from '../../assets/svg-removebg-preview.png'
+import imgPerfil from '../../../assets/svg-removebg-preview.png'
 
-import placeholder from '../../assets/placeholder.png'
+import placeholder from '../../../assets/placeholder.png'
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { PiCoffeeFill } from "react-icons/pi";
 import { PiProjectorScreenChartFill } from "react-icons/pi";
@@ -96,8 +96,45 @@ export const ProjectDesktop = (props) => {
             </div>
 
             <div className='fila2-blocos'>
-            <div className='fila2-bloco1'>bloco1</div>
-            <div className='fila2-bloco2'>bloco1</div>
+            <div className='fila2-bloco1'>
+                <div className='content-img-box-fila2'></div>
+                <div className='legend-blocos-blocos'>
+                        <h3>proje</h3>
+                        <h3>proje</h3>
+                        <h3>proje</h3>
+                    </div>
+
+
+                    <div className='title-blocos-rodape'>
+                        <h2>Title</h2>
+                        <FaExternalLinkAlt/>
+                    </div>
+
+
+                
+
+
+
+
+            </div>
+            <div className='fila2-bloco2'>
+            <div className='content-img-box-fila2'></div>
+            <div className='legend-blocos-blocos'>
+                        <h3>proje</h3>
+                        <h3>proje</h3>
+                        <h3>proje</h3>
+                    </div>
+
+
+                    <div className='title-blocos-rodape'>
+                        <h2>Title</h2>
+                        <FaExternalLinkAlt/>
+                    </div>
+
+
+
+
+            </div>
             </div>
 
             

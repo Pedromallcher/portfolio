@@ -1,3 +1,11 @@
 .content-about{
     color: red;
 }
+.box-content-about{
+    background-color: red;
+    margin-top: 2vh;
+    height: 80vh;
+    width: 68vw;
+    
+    margin-left: 38vh;
+}

@@ -27,7 +27,8 @@ export const About = () => {
             </div>
         </div>
 
-        <div className='box-content-study'>
+        <div className='box-content-about'>
+            
        
             
             

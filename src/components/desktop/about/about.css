@@ -1,11 +1,181 @@
-.content-about{
+/* Estilo geral */
+.content-about {
     color: red;
 }
-.box-content-about{
-    background-color: red;
+
+.box-content-about {
     margin-top: 2vh;
     height: 80vh;
     width: 68vw;
+    margin-left: 50vh;
+    margin-right: auto;
+    display: flex;
+}
+
+/* Estilo da timeline */
+.timeline {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding-top: 8vh;
+    align-items: center; /* Centraliza todos os elementos */
+}
+
+/* Containers da direita e esquerda */
+.container-direita, .container-esquerda,.container-direita-space,.container-esquerda-space {
+    display: flex;
+    width: 60%;
+   
+    position: relative;
+    margin-bottom: 40px; /* Espaçamento entre os blocos */
+}
+
+/* Alinha à direita */
+.container-direita {
+    justify-content: flex-end;
+    margin-left: -11vh;
+    top: 3%;
+   
+
+}
+
+.container-direita-space{
+    justify-content: flex-end;
+    margin-left: -9vh;
+    top: 1vh;
     
-    margin-left: 38vh;
+    
+    
+
+}
+.textbox-esquerda-space{
+    justify-content: flex-start;
+    
+    
+}
+
+/* Alinha à esquerda */
+.container-esquerda {
+    justify-content: flex-start;
+    margin-right: 45vh;
+    top: 1vh;
+
+}
+
+/* Estilo das caixas de conteúdo (textbox) */
+.textbox {
+    background-color: rgb(19, 19, 177);
+    padding: 5vh;
+    color: white;
+    width: 20vw;
+    height: auto;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.textbox-direita-space{
+    background-color: rgb(19, 19, 177);
+    padding: 5vh;
+    color: white;
+ 
+    width: 20vw;
+    height: auto;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+ 
+
+}
+
+.textbox-esquerda-space{
+    background-color: rgb(19, 19, 177);
+    padding: 5vh;
+    color: white;
+    width: 20vw;
+    height: auto;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-left: -21vh;
+ 
+
+}
+
+/* Linha central da timeline */
+.timeline::before {
+    content: '';
+    position: absolute;
+    height: 92vh;
+    left: 39%; /* Alinhado ao centro da timeline */
+    top: -4%;
+    bottom: 0;
+    width: 4px;
+    background-color: gray;
+    transform: translateX(-50%);
+}
+
+/* Pontos (bolinhas) independentes na timeline */
+.point {
+    position: absolute;
+    left: 39%; /* Centraliza os pontos na linha */
+    width: 20px;
+    height: 20px;
+    background-color: #2771b6;
+    border-radius: 50%;
+    z-index: 1; /* Garante que as bolinhas fiquem acima da linha */
+    transform: translateX(-50%); /* Centraliza as bolinhas na linha */
+}
+
+
+.point-1 {
+    top: -2%;
+}
+
+.point-2 {
+    top: 2%; 
+}
+
+.point-3 {
+    top: 35%;
+}
+
+.point-4 {
+    top: 64%; 
+}
+
+.point-5 {
+    top: 93%; 
+}
+
+
+.legend1-box-direita{
+    margin-right: 9vh;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 20vh;
+    width: 20vh;
+   
+
+}
+.legend1-box-esquerda{
+    margin-left: 9vh;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 20vh;
+    width: 20vh;
+}
+
+.legend1-box-direita h3 , span{
+    font-size: 21px;
+    font-family: "Germania One", system-ui
+    
+   
+
 }

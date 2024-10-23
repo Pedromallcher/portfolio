@@ -26,9 +26,9 @@ export const HomeDesktop = () => {
         <div className="content-home-desktop">
             
         <div className='box-principal'>
-            <div className='box-perfil'>
-                <div className='img-perfil'> <img src={imgPerfil} alt="" /> <h3>@pedromallcher</h3></div>
-                <div className='option-menubox'>
+            <div className='box-perfil-component'>
+                <div className='img-perfil-component'> <img src={imgPerfil} alt="" /> <h3>@pedromallcher</h3></div>
+                <div className='option-menubox-component'>
                 <Link to="/"><PiCoffeeFill className='icon-option'/><p className='option-projetos'>Home</p></Link>
                 <Link to="/projetos"><PiProjectorScreenChartFill className='icon-option'/><p className='option-projetos'>Projetos </p></Link>
                 <Link to="/casestudy"><FaBookSkull className='icon-option'/><p className='option-projetos'>Case Study</p></Link>

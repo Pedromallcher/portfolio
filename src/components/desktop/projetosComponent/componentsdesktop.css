@@ -7,7 +7,10 @@ align-items: center;
 display: flex;
 color: white;
 
+
+
 }
+
 
 
 .inf-top-blocos{
@@ -136,7 +139,14 @@ border-radius: 20px;
     background-color: #111111;
 }
 
+.option-projetos{
+    padding-right: 0;
+    border-right: 0;
+    transition: padding-right 0.5s ease, border-right 0.3s ease; /* Controla a velocidade da transição */
+}
+
 .option-projetos:hover{
+   
    padding-right: 1vh;
    border-right: 4px solid gray;
   

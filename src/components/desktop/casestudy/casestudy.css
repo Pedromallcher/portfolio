@@ -37,14 +37,15 @@
 
 .fila2-box-study{
     display: flex;
-    justify-content: center;
+    
+    
 }
 
 .box3-fila2-study{
     border-radius: 20px;
     margin: 1vh;
-    height: 36vh;
-    width: 34vw;
+    height: 37vh;
+    width: 22vw;
     border: 1px solid rgba(128, 128, 128, 0.582);
     background-color: #111111;
 
@@ -63,8 +64,8 @@
     margin-bottom: 1vh;
     border-radius: 20px;
     background-color: blue;
-    height: 22vh;
-    width: 34vw;
+    height: 23vh;
+    width: 22vw;
 
 }
 

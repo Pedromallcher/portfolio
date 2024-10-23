@@ -75,26 +75,30 @@ export const ProjectDesktop = (props) => {
             </div>
             <div className='fila2-blocos'>
             <div className='fila2-bloco1'>
-                <div className='content-img-box-fila2'></div>
+                <div className='content-img-box-fila2'>
+                <img className='img-box-fila2' src={ placeholder} alt="" />
+                </div>
                 <div className='legend-blocos-blocos'>
                         <h3>proje</h3>
                         <h3>proje</h3>
                         <h3>proje</h3>
                     </div>
                     <div className='title-blocos-rodape'>
-                        <h2>Title</h2>
+                        <h2>Titleee</h2>
                         <FaExternalLinkAlt/>
                     </div>
             </div>
             <div className='fila2-bloco2'>
-            <div className='content-img-box-fila2'></div>
+            <div className='content-img-box-fila2'>
+            <img className='img-box-fila2' src={ placeholder} alt="" />
+            </div>
             <div className='legend-blocos-blocos'>
                         <h3>proje</h3>
                         <h3>proje</h3>
                         <h3>proje</h3>
                     </div>
                     <div className='title-blocos-rodape'>
-                        <h2>Title</h2>
+                        <h2>Titleee</h2>
                         <FaExternalLinkAlt/>
                     </div>
             </div>

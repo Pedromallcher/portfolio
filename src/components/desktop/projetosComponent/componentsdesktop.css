@@ -89,7 +89,7 @@ border-radius: 20px;
     border-radius: 20px;
     margin: 1vh;
     height: 37vh;
-    width: 22vw;
+    width: 21vw;
     
 }
 
@@ -97,7 +97,7 @@ border-radius: 20px;
     margin: 1vh;
     border-radius: 20px;
     height: 37vh;
-    width: 22vw;
+    width: 21vw;
     border: 1px solid rgba(128, 128, 128, 0.582);
     background-color: #111111;
 }
@@ -108,13 +108,14 @@ border-radius: 20px;
     border-radius: 20px;
     height: 37vh;
     border: 1px solid rgba(128, 128, 128, 0.582);
-    width: 22vw;
+    width: 21vw;
     background-color: #111111;
 }
 
 
 .fila2-blocos{
-    margin-left: 13vh;
+    margin-top: 2vh;
+    margin-left: 24vh;
     display: flex;
 
 }
@@ -122,8 +123,8 @@ border-radius: 20px;
 .fila2-bloco1{
     margin: 1vh;
     border-radius: 20px;
-    height: 35vh;
-    width: 27vw;
+    height: 38vh;
+    width: 21vw;
     border: 1px solid rgba(128, 128, 128, 0.582);
     background-color: #111111;
     
@@ -133,8 +134,8 @@ border-radius: 20px;
 .fila2-bloco2{
     margin: 1vh;
     border-radius: 20px;
-    height: 35vh;
-    width: 27vw;
+    height: 38vh;
+    width: 21vw;
     border: 1px solid rgba(128, 128, 128, 0.582);
     background-color: #111111;
 }
@@ -187,7 +188,7 @@ border-radius: 20px;
 .img-bloco1-projetos img{
     border-radius: 20px;
     height: 23vh;
-    width: 22vw;
+    width: 21vw;
     border-radius: 20px;
 
 }
@@ -222,13 +223,13 @@ border-radius: 20px;
 
 }
 
-.content-img-box-fila2{
+.img-box-fila2{
+    height: 23vh;
+    width: 21vw;
     background-color: red;
     margin-bottom: 1vh;
     border-radius: 20px;
-    background-image: url('../../../assets/thumbnail.png');
-    height: 20vh;
-    width: 27vw;
+    
     border-radius: 20px;
 
 }

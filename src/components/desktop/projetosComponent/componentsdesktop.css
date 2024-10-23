@@ -136,11 +136,12 @@ border-radius: 20px;
     background-color: #111111;
 }
 
-.option-projetos{
+.option-projetos:hover{
    padding-right: 1vh;
    border-right: 4px solid gray;
   
 }
+
 .title-project{
     padding-top: 4vh;
 }
@@ -221,3 +222,4 @@ border-radius: 20px;
     border-radius: 20px;
 
 }
+

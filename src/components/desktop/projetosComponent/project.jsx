@@ -19,8 +19,8 @@ export const ProjectDesktop = (props) => {
                 <div className='option-menubox-component'>
                 <Link to="/"><PiCoffeeFill className='icon-option'/>Home</Link>
                 <Link to="/projetos"><PiProjectorScreenChartFill className='icon-option'/><p className='option-projetos'>Projetos </p></Link>
-                <Link to="/casestudy"><FaBookSkull className='icon-option'/>Case Study</Link>
-                <Link to="">< FaAddressCard className='icon-option'/>Sobre</Link>
+                <Link to="/casestudy"><FaBookSkull className='icon-option'/><p className='option-projetos'>Case Study</p></Link>
+                <Link to="/about">< FaAddressCard className='icon-option'/><p className='option-projetos'>Sobre</p></Link>
                 </div>
             </div>
             <div className='blocos-component'>

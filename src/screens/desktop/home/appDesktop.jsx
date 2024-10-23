@@ -1,4 +1,6 @@
 import './styleHomeDesktop.css'
+import '../../../components/desktop/projetosComponent/componentsdesktop.css'
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -27,10 +29,10 @@ export const HomeDesktop = () => {
             <div className='box-perfil'>
                 <div className='img-perfil'> <img src={imgPerfil} alt="" /> <h3>@pedromallcher</h3></div>
                 <div className='option-menubox'>
-                <Link to="/"><PiCoffeeFill className='icon-option'/>Home</Link>
-                <Link to="/projetos"><PiProjectorScreenChartFill className='icon-option'/>Projetos</Link>
-                <Link to="/casestudy"><FaBookSkull className='icon-option'/>Case Study</Link>
-                <Link to="/projetos">< FaAddressCard className='icon-option'/>Sobre</Link>
+                <Link to="/"><PiCoffeeFill className='icon-option'/><p className='option-projetos'>Home</p></Link>
+                <Link to="/projetos"><PiProjectorScreenChartFill className='icon-option'/><p className='option-projetos'>Projetos </p></Link>
+                <Link to="/casestudy"><FaBookSkull className='icon-option'/><p className='option-projetos'>Case Study</p></Link>
+                <Link to="/about">< FaAddressCard className='icon-option'/><p className='option-projetos'>Sobre</p></Link>
                    
                 </div>
             </div>

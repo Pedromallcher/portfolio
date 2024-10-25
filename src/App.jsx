@@ -2,6 +2,7 @@ import './App.css';
 import { useState, useEffect } from 'react';
 import { RenderDesktop } from './screens/desktop/home/render';
 import { RenderMobile } from './screens/mobile/renderMobile';
+import { NavbarMobile } from './components/mobile/navbar/navbar';
 
 function App() {
   const [isMobileDevice, setIsMobileDevice] = useState(false);
@@ -26,6 +27,7 @@ function App() {
 
   return (
     <>
+    
       {isMobileDevice ? (
         <RenderMobile /> // Renderiza para mobile
       ) : (

@@ -1,0 +1,41 @@
+.content-navbar {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+
+    .content-navbar {
+        display: flex;
+        color: red;
+    }
+
+    .box-nav {
+        position: fixed;   
+        margin-left: 1vh;
+        align-items: center;
+        border-radius: 20px;
+        justify-content: space-around;   
+        bottom: 0; 
+        margin-bottom: 1vh;             
+        height: 10vh;
+        width: 96vw;
+        background-color: #111111;
+        display: flex;
+    }
+    .box-nav a{
+        color: white;
+        font-family: "Germania One", system-ui;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        margin: 2vh;
+        align-items: center;
+        justify-content: center;
+    }
+    .icon{
+        margin-bottom: 1vh;
+        font-size: 28px;
+        color:gray;
+
+    }
+}

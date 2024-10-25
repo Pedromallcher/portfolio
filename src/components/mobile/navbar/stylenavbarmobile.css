@@ -16,11 +16,12 @@
         border-radius: 20px;
         justify-content: space-around;   
         bottom: 0; 
-        margin-bottom: 1vh;             
+        margin-bottom: 1.9vh;             
         height: 10vh;
         width: 96vw;
         background-color: #111111;
         display: flex;
+        border: 1px solid rgba(128, 128, 128, 0.349);
     }
     .box-nav a{
         color: white;

@@ -23,7 +23,9 @@
     }
 
     .box-perfil-mobile{
+        font-family: "Germania One", system-ui;
         margin-top: 2vh;
+        
        margin-left: 6vh;
         display: flex;
         justify-content: center;
@@ -35,10 +37,15 @@
     }
 
     .img-perfil-mobile  {
+        font-size: 19px;
         display: flex;
         flex-direction: column;
         margin-top: 1vh;
         text-align: center;
+    }
+    .img-perfil-mobile h3 {
+        margin-top: -1vh
+        
     }
 
     .img-perfil-mobile img {

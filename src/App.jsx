@@ -1,22 +1,18 @@
-
-import './App.css'
-import { HomeDesktop } from './screens/desktop/home/appDesktop'
-//import routes
-import {AppRoutes} from './routes/routes'
-
-
+import './App.css';
+import { RenderDesktop } from './screens/desktop/home/render';
 
 
 function App() {
+ 
 
   return (
-
     <>
-    
-     <AppRoutes/>
-        
+     
+        <RenderDesktop/>
+
+      
     </>
-  )
+  );
 }
 
-export default App
+export default App;

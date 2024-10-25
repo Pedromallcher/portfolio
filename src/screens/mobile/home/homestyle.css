@@ -1,0 +1,50 @@
+
+.content-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+
+    .content-mobile {
+        background-color: rgba(0, 0, 0, 0.904);
+        height: 100vh;
+        display: flex;
+        color: white;
+        
+       
+    }
+
+    .homemobile-content{
+        display: flex;
+       justify-content: center;
+        
+        
+        
+    }
+
+    .box-perfil-mobile{
+        margin-top: 5vh;
+       margin-left: 6vh;
+        display: flex;
+        justify-content: center;
+        border-radius: 20px;
+        height: 27vh;
+        width: 78vw;
+        background-color: #111111;
+        border: 1px solid rgba(128, 128, 128, 0.411);
+    }
+
+    .img-perfil-mobile  {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1vh;
+        text-align: center;
+    }
+
+    .img-perfil-mobile img {
+        height: 20vh;
+    }
+
+    
+
+}

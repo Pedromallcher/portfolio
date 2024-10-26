@@ -16,16 +16,12 @@
 
     .homemobile-content{
         display: flex;
-       justify-content: center;
-        
-        
-        
+        flex-direction: column;
     }
 
     .box-perfil-mobile{
         font-family: "Germania One", system-ui;
-        margin-top: 2vh;
-        
+        margin-top: 3vh;
        margin-left: 6vh;
         display: flex;
         justify-content: center;
@@ -51,6 +47,55 @@
     .img-perfil-mobile img {
         height: 20vh;
     }
+    .description-me{
+        margin-top: 2vh;
+        margin-left: 2.4vh;
+        border-radius: 20px;
+        height: 43vh;
+        width: 92vw;
+        background-color: #111111;
+        border: 2px solid rgba(128, 128, 128, 0.26);
+
+
+    }
+    .top-tittle{
+        margin-top: 2vh;
+        align-items: center;
+        justify-content: space-around;
+        display: flex;
+    }
+    .title-top-home{
+        font-family: "Germania One", system-ui;
+        font-size: 20px;
+
+    }
+    .information-top-home {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .information-top-home p {
+        display: flex; 
+        align-items: center; 
+
+        font-family: "Germania One", system-ui;
+        margin: 5px 0; 
+    }
+    
+    .icon-space {
+        margin-right: 5px;
+    }
+    .txt-description-me{
+        text-align:justify;
+        margin-top: 2vh;
+        margin-left: 3vh;
+        margin-right: 3vh;
+        color: gray;
+        font-size: 20px;
+        font-family: "Germania One", system-ui;
+    }
+   
+    
 
     
 

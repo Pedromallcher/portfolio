@@ -14,7 +14,7 @@ export const NavbarMobile  = () => {
         <div className='content-navbar'>
            <nav className='box-nav'>
           <Link to="/"> <IoMdHome className='icon-nav'/>Home</Link>
-          <Link to="/"> <PiProjectorScreenChartFill className='icon-nav'/>Project</Link>
+          <Link to="/project"> <PiProjectorScreenChartFill className='icon-nav'/>Project</Link>
           <Link to="/"> <FaBookSkull className='icon-nav'/>Study</Link>
           <Link to="/"> <FaAddressCard className='icon-nav'/>Sobre</Link>
           

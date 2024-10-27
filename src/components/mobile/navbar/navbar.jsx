@@ -1,4 +1,4 @@
-
+import { Link } from 'react-router-dom';
 import './stylenavbarmobile.css'
 import { IoMdHome } from "react-icons/io";
 import { PiProjectorScreenChartFill } from "react-icons/pi";
@@ -13,10 +13,11 @@ export const NavbarMobile  = () => {
         <>
         <div className='content-navbar'>
            <nav className='box-nav'>
-                <a href=""><IoMdHome className='icon'/>Home</a>
-                <a  href=""><PiProjectorScreenChartFill className='icon'/>Projetos</a>
-                <a href=""><FaBookSkull className='icon'/>Study</a>
-                <a href=""><FaAddressCard className='icon'/>About</a>
+          <Link to="/"> <IoMdHome className='icon-nav'/>Home</Link>
+          <Link to="/"> <PiProjectorScreenChartFill className='icon-nav'/>Project</Link>
+          <Link to="/"> <FaBookSkull className='icon-nav'/>Study</Link>
+          <Link to="/"> <FaAddressCard className='icon-nav'/>Sobre</Link>
+          
               
 
            </nav>

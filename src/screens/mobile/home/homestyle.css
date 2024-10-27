@@ -7,7 +7,7 @@
 
     .content-mobile {
         background-color: rgba(0, 0, 0, 0.904);
-        height: 100vh;
+        height: 140vh;
         display: flex;
         color: white;
         
@@ -51,7 +51,7 @@
         margin-top: 2vh;
         margin-left: 2.4vh;
         border-radius: 20px;
-        height: 43vh;
+        height: 48vh;
         width: 92vw;
         background-color: #111111;
         border: 2px solid rgba(128, 128, 128, 0.26);
@@ -94,6 +94,78 @@
         font-size: 20px;
         font-family: "Germania One", system-ui;
     }
+  
+    .list-home {
+        border-radius: 20px;
+        margin-top: 2vh;
+        margin-left: 4vh;
+        display: flex;
+        width: 54vh;
+        overflow-x: auto;
+               
+    }
+    
+    .list-box-home {
+        text-align: center;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex: 0 0 auto;  
+        border-radius: 20px;            
+        margin: 1vh;
+        height: 33vh;
+        width: 29vh;
+        background-color: #111111;
+        scroll-snap-align: start;    
+        border: 2px solid rgba(128, 128, 128, 0.26);
+    }
+    .list-box-home h1{
+        font-family: "Germania One", system-ui;
+        font-size: 60px;
+
+    }
+    .list-box-home p{
+        font-size: 20px;
+        font-family: "Germania One", system-ui;
+        color: gray;
+
+    }
+    .list-box-home span{
+        font-size: 26px;
+        font-family: "Germania One", system-ui;
+        color: gray;
+
+    }
+    .p-listbox{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .title-skills{
+        margin-bottom: 1vh;
+        font-size: 30px;
+        font-family: "Germania One", system-ui;
+
+    }
+
+    .imgs-skills{
+        display: flex;
+      
+        justify-content: center;
+
+    }
+    .imgs-skills img{
+        height: 5vh;
+        display: flex;
+        
+    }
+
+  
+    
+    
+    
+    
    
     
 

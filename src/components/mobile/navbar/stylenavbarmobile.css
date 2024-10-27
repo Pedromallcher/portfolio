@@ -16,8 +16,8 @@
         border-radius: 20px;
         justify-content: space-around;   
         bottom: 0; 
-        margin-bottom: 1vh;             
-        height: 10vh;
+        margin-bottom: 3vh;             
+        height: 9vh;
         width: 96vw;
         background-color: #111111;
         display: flex;
@@ -33,11 +33,12 @@
         align-items: center;
         justify-content: center;
     }
-    .icon{
-        margin-bottom: 1vh;
-        font-size: 28px;
-        color:gray;
-
+    
+    
+    .icon-nav{
+        margin-top: 0.5vh;
+        font-size: 30px;
+        margin-bottom: 0.7vh;
     }
    
 }

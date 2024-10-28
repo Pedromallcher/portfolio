@@ -27,7 +27,7 @@
         justify-content: center;
         border-radius: 20px;
         height: 27vh;
-        width: 78vw;
+        width: 79vw;
         background-color: #111111;
         border: 2px solid rgba(128, 128, 128, 0.26);
     }
@@ -100,7 +100,7 @@
         margin-top: 2vh;
         margin-left: 4vh;
         display: flex;
-        width: 54vh;
+        width: 46vh;
         overflow-x: auto;
                
     }

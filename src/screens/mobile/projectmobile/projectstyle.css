@@ -1,0 +1,82 @@
+.content-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+
+    .content-mobile {
+        display: flex;
+    }
+    .projectmobile-content{
+        height: 132vh;
+        
+        display: flex;
+        background-color: rgba(0, 0, 0, 0.904);
+        flex-direction: column;
+        width: 50vh;
+    }
+    .title-project{
+        
+       
+        height: 10vh;
+        flex-direction: row;
+        justify-content: center;
+        display: flex;
+        
+    }
+    .title-project h1 {
+        
+        color: rgb(255, 255, 255);
+        font-family: "Germania One", system-ui;
+    }
+    .box-projects-mobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1vh;
+    }
+    .b1-projects , .b2-projects , .b3-projects{
+        height: 32vh;
+        border-radius: 20px;
+        width: 40vh;
+        margin: 2vh;
+        background-color: #111111;
+        border: 2px solid rgba(128, 128, 128, 0.26);
+
+    }
+    .img-b{
+        height: 20vh;
+        border-radius: 20px;
+        background-color: rgb(76, 76, 159);
+    }
+    .legend-projects{
+        display: flex;
+        text-align: center;
+        
+    }
+    .legend-projects p {
+        margin-left: 2vh;
+        margin-top: 2.5vh;
+       border-radius: 5px;
+        width: 20vw;
+        border: 0.6px solid gray;
+        margin-right: 3vh;
+        font-family: "Germania One", system-ui;
+    }
+
+    .title-project-mobile{
+        margin-top: 2.4vh;
+        font-family: "Germania One", system-ui;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+     .title-project-mobile h3{
+        margin-left: 4vh;
+    }
+    .icon-title-project{
+        margin-right: 4vh;
+    }
+
+}

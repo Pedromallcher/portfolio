@@ -7,9 +7,13 @@
 
     .content-mobile {
         background-color: rgba(0, 0, 0, 0.904);
-        height: 290vh;
+        height: auto;
         display: flex;
+        width: 49.9vh;
         color: white;
        
     }
+    
+
+    
 }

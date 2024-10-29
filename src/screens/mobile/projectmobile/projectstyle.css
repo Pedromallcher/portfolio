@@ -18,7 +18,7 @@
     .title-project{
         
        
-        height: 10vh;
+    
         flex-direction: row;
         justify-content: center;
         display: flex;
@@ -30,11 +30,11 @@
         font-family: "Germania One", system-ui;
     }
     .box-projects-mobile{
+        margin-top: 3vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 1vh;
     }
     .b1-projects , .b2-projects , .b3-projects{
         height: 32vh;
@@ -66,7 +66,7 @@
     }
 
     .title-project-mobile{
-        margin-top: 2.4vh;
+        margin-top: 2.5vh;
         font-family: "Germania One", system-ui;
         display: flex;
         align-items: center;

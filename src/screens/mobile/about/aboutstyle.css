@@ -1,26 +1,38 @@
-/* Estilo geral */
-.content-about {
-    color: red;
+.content-mobile {
+    display: none;
 }
 
+@media screen and (max-width: 768px) {
+
+    .content-mobile {
+        display: flex;
+    }
+    .about-content-mobile{
+        height: 132vh;
+        display: flex;
+        background-color: rgba(0, 0, 0, 0.904);
+        flex-direction: column;
+        width: 50vh;
+    }
+
+    
 .box-content-about {
     margin-top: 2vh;
     height: 80vh;
     width: 68vw;
-    margin-left: 50vh;
+    margin-left: 20vh;
     margin-right: auto;
     display: flex;
 }
 
-
+/* Estilo da timeline */
 .timeline {
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    padding-top: 8vh;
-    align-items: center;
+    align-items: center; /* Centraliza todos os elementos */
 }
 
 /* Containers da direita e esquerda */
@@ -29,14 +41,15 @@
     width: 60%;
    
     position: relative;
-    margin-bottom: 40px;
+    margin-bottom: 40px; /* Espaçamento entre os blocos */
 }
 
 /* Alinha à direita */
 .container-direita {
+
     justify-content: flex-end;
-    margin-left: -11vh;
-    top: 3%;
+    margin-left: -1vh;
+    top: 29%;
    
 
 }
@@ -60,27 +73,31 @@
 .container-esquerda {
     justify-content: flex-start;
     margin-right: 45vh;
-    top: 1vh;
+    top: 16vh;
 
 }
 
-
+/* Estilo das caixas de conteúdo (textbox) */
 .textbox {
-    background-color: rgb(19, 19, 177);
-    padding: 5vh;
+   display: flex;
+   flex-direction: column;
+    text-align: center;
+    background-color: rgb(177, 87, 19);
     color: white;
-    width: 20vw;
-    height: auto;
-    margin: 10px;
+    width: 39vw;
+    height: 10vh;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
+.textbox-direita{
+
+
+}
 
 .textbox-direita-space{
-    background-color: rgb(19, 19, 177);
+    background-color: rgb(19, 177, 24);
     padding: 5vh;
     color: white;
- 
     width: 20vw;
     height: auto;
     margin: 10px;
@@ -104,34 +121,35 @@
 
 }
 
-
+/* Linha central da timeline */
 .timeline::before {
     content: '';
     position: absolute;
     height: 92vh;
-    left: 39%; 
-    top: -4%;
+    left: 15%; 
+    top: 9%;
     bottom: 0;
     width: 4px;
     background-color: gray;
     transform: translateX(-50%);
 }
 
-
+/* Pontos (bolinhas) independentes na timeline */
 .point {
+    margin-top: 5vh;
     position: absolute;
-    left: 39%;
+    left: 15%; /* Centraliza os pontos na linha */
     width: 20px;
     height: 20px;
     background-color: #2771b6;
     border-radius: 50%;
-    z-index: 1;
-    transform: translateX(-50%); 
+    z-index: 1; /* Garante que as bolinhas fiquem acima da linha */
+    transform: translateX(-50%); /* Centraliza as bolinhas na linha */
 }
 
 
 .point-1 {
-    top: -2%;
+    top: 2%;
 }
 
 .point-2 {
@@ -152,7 +170,7 @@
 
 
 .legend1-box-direita{
-    margin-right: 9vh;
+    margin-right: 4vh;
     justify-content: center;
     display: flex;
     flex-direction: column;
@@ -172,10 +190,20 @@
     width: 20vh;
 }
 
+
 .legend1-box-direita h3 , span{
+
+
     font-size: 21px;
     font-family: "Germania One", system-ui
     
+   
+
+}
+
+
+
+
    
 
 }
